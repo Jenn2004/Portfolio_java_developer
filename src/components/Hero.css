@@ -1,0 +1,56 @@
+.hero {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro {
+  color: #ff6b35;
+  font-size: 20px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin: 10px 0;
+}
+
+.hero h1 span {
+  color: #ff6b35;
+}
+
+.hero h2 {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.description {
+  max-width: 700px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.primary-btn {
+  background: #ff6b35;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid #ff6b35;
+  color: #ff6b35;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}

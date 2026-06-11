@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.content {
+  margin-left: 280px;
+  width: 100%;
+  padding: 50px;
+}
+
+section {
+  min-height: 100vh;
+  padding: 60px 0;
+}
