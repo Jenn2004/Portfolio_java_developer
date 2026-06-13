@@ -5,11 +5,14 @@ import {
 } from "react-icons/fa";
 import profileImg from "../assets/images/Jeniferj.jpg";
 import "./Sidebar.css";
+import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Sidebar() {
   return (
+    
     <div className="sidebar">
-
+      
       <img src={profileImg} alt="profile" className="profile-image" />
 
       <h2>Jenifer J</h2>

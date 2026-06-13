@@ -5,23 +5,25 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import MobileNavbar from "./components/MobileNavbar"
 
 import "./App.css";
 
 function App() {
   return (
     <div className="container">
-      <Sidebar />
+  <MobileNavbar />
+  <Sidebar />
 
-      <main className="content">
-        <Hero />
-        <About />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Contact />
-      </main>
-    </div>
+  <main className="content">
+    <Hero />
+    <About />
+    <Skills />
+    <Experience />
+    <Projects />
+    <Contact />
+  </main>
+</div>
   );
 }
 

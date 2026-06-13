@@ -1,6 +1,5 @@
 .hero {
   min-height: 100vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,6 +25,7 @@
 }
 
 .description {
+  width: 100%;
   max-width: 700px;
   font-size: 1.2rem;
   line-height: 1.7;
@@ -55,26 +55,28 @@
   cursor: pointer;
 }
 
+/* ===== Mobile ===== */
 @media (max-width: 768px) {
+
   .hero {
     min-height: auto;
     padding-top: 50px;
+    text-align: center;
   }
 
   .hero h1 {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
   }
 
   .hero h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .description {
     font-size: 1rem;
+    max-width: 100%;
   }
-}
 
-@media (max-width: 768px) {
   .buttons {
     flex-direction: column;
     width: 100%;
