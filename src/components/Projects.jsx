@@ -17,7 +17,7 @@ function Projects() {
 
       github: "https://github.com/Jenn2004/salessavy-project",
 
-      live: "https://your-demo-link.com",
+      live: "https://react-learning-4uuu908ej-jenn2004s-projects.vercel.app",
     },
 
     {
