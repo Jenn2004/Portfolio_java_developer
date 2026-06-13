@@ -17,10 +17,15 @@
   line-height: 1.8;
 }
 
-.projects-grid {
+/* .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
+} */
+ .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
 }
 
 .project-card {
@@ -96,4 +101,24 @@
 
 .project-links a:hover {
   opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .project-links {
+    flex-direction: column;
+  }
+
+  .project-links a {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-content h2,
+  .projects-header h2,
+  .skills-header h2,
+  .experience-header h2,
+  #contact h2 {
+    font-size: 2rem;
+  }
 }
